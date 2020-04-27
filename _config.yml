@@ -1,12 +1,12 @@
 name: System Design Primer
-description: A collection of System Design interview questions & their solutions
+description: 'A collection of System Design interview questions & their solutions'
 meta_description: 'A collection of System Design interview questions & their solutions'
 
 markdown: kramdown
 highlighter: rouge
 logo: false
-paginate: 15
-baseurl: '/'
+paginate: 10
+baseurl: ''
 domain_name: 'https://systemdesignprimer.com'
 google_analytics: 'UA-XXXXXXXX-X'
 permalink: /:title/
