@@ -1,13 +1,13 @@
 {% assign image_name = include.image | split: "." %}
 <picture>
   <source
-    srcset="{{ site.url }}{{ site.baseurl }}assets/images/{{
+    srcset="{{ site.url }}{{ site.baseurl }}/assets/images/{{
       image_name.first
     }}.webp"
     type="image/webp"
   />
   <img
-    src="{{ site.url }}{{ site.baseurl }}assets/images/{{
+    src="{{ site.url }}{{ site.baseurl }}/assets/images/{{
       include.image
     }}"
     alt="{{ include.alt }}"
