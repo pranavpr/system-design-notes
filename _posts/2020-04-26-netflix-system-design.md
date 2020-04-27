@@ -5,6 +5,7 @@ date: 2020-04-26 21:05 +0530
 categories:
   - System Design
   - Netflix
+cover: netflix-system-design-cover.jpg
 ---
 
 Let's design a on-demand video streaming service like Netflix where users should be able to stream and watch videos which are available on the platform.
