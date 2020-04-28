@@ -5,7 +5,7 @@ date: 2020-04-26 21:05 +0530
 categories:
   - System Design
   - Netflix
-cover: netflix-system-design-cover.jpg
+image: /assets/images/netflix-system-design-cover.jpg
 ---
 
 Netflix is one the largest on-demand video streaming service over the internet. Netflix allows users to stream and watch videos which are available on its platform. Let try to design a system similar to Netflix.
