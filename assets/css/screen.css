@@ -335,6 +335,7 @@ h6 {
 a {
   color: #4a4a4a;
   transition: color ease 0.3s;
+  text-decoration: underline;
 }
 
 a:hover {
@@ -1880,6 +1881,10 @@ body:not(.post-template) .post-title {
   width: fit-content;
   background-color: #f5f8fa !important;
   padding: 3rem !important;
+}
+
+#markdown-toc a {
+  text-decoration: none;
 }
 
 /* ==========================================================================
