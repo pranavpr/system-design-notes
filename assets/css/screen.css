@@ -722,7 +722,7 @@ margin on the iframe, cause it breaks stuff. */
   height: 38px;
   padding: 0 15px 0 10px;
   border: transparent 1px solid;
-  color: #9eabb3;
+  color: #fff;
   text-align: center;
   font-size: 12px;
   text-transform: uppercase;
@@ -748,7 +748,7 @@ margin on the iframe, cause it breaks stuff. */
   height: 38px;
   padding: 0 20px;
   border: transparent 1px solid;
-  color: #9eabb3;
+  color: #fff;
   text-align: center;
   font-size: 12px;
   text-transform: uppercase;
@@ -1506,7 +1506,6 @@ body:not(.post-template) .post-title {
     height: auto;
     min-height: 240px;
     height: 60%;
-    padding: 15% 0;
   }
 
   .scroll-down,
@@ -1633,7 +1632,6 @@ body:not(.post-template) .post-title {
   .main-nav {
     padding: 0;
     margin-bottom: 2rem;
-    border-bottom: #e0e4e7 1px solid;
   }
 
   .blog-logo {
@@ -1649,14 +1647,8 @@ body:not(.post-template) .post-title {
     height: 44px;
     line-height: 41px;
     border-radius: 0;
-    color: #2e2e2e;
+    color: #fff;
     background: transparent;
-  }
-  .back-button:hover,
-  .subscribe-button:hover {
-    border-color: #ebeef0;
-    color: #2e2e2e;
-    background: #ebeef0;
   }
 
   .back-button {
