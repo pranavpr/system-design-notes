@@ -1637,6 +1637,10 @@ body:not(.post-template) .post-title {
     margin-bottom: 2rem;
   }
 
+  .main-nav a {
+    border-color: transparent;
+  }
+
   .blog-logo {
     padding: 10px 10px;
   }
