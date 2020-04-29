@@ -4,7 +4,6 @@ title: Netflix System Design
 date: 2020-04-26 21:05 +0530
 categories:
   - System Design
-  - Netflix
 image: /assets/images/netflix-system-design-cover.jpg
 ---
 
