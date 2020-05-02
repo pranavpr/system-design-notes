@@ -443,7 +443,7 @@ We would use Least Recently Used (LRU) eviction policy for caching data as it al
 
 The use of CDN for delivering video would boost the performance as videos would be served from location near to users reducing the number of network hops. Also CDN can cache the video in memory for even faster delivery.
 
-In-fact Netflix has build their own CDN network known as [Open Connect](https://openconnect.netflix.com/en/){:target="\_blank"} for delivering the videos. Open Connect uses specialized Open Connect Appliances (OCAs) embedded in ISP networks which are highly optimized for video delivery.
+> In-fact Netflix has build their own CDN network known as [Open Connect](https://openconnect.netflix.com/en/){:target="\_blank"} for efficiently delivering the videos. Open Connect uses specialized Open Connect Appliances (OCAs) embedded in ISP networks which are highly optimized for video delivery.
 
 ### Scalability
 
@@ -502,3 +502,9 @@ Since we would be putting multiple servers behind a load balancer, there would b
 #### Geo-redundancy
 
 We would be deploying exact replica of our services in data-centers across multiple geographical locations. This would ensure that if one data-center goes down due to some reason, the traffic could still be served from remaining data-centers.
+
+### References
+
+- [How Netflix Works With ISPs Around the Globe to Deliver a Great Viewing Experience](https://media.netflix.com/en/company-blog/how-netflix-works-with-isps-around-the-globe-to-deliver-a-great-viewing-experience){:target="\_blank"}
+- [Overview of Open Connect](https://openconnect.netflix.com/Open-Connect-Overview.pdf){:target="\_blank"}
+- [A 360 Degree View Of The Entire Netflix Stack](http://highscalability.com/blog/2015/11/9/a-360-degree-view-of-the-entire-netflix-stack.html){:target="\_blank"}
